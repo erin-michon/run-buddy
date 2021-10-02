@@ -78,6 +78,7 @@ section {
   background-position: center;
   position: relative;
 }
+/* Hero Style End */
 
 .hero-form {
   border: 3px solid #024e76;
@@ -120,10 +121,6 @@ section {
   font-size: 16px;
 }
 
-/* Hero Style End */
-
-/*Intro Style Start*/
-
 .intro {
   text-align: center;
 }
@@ -136,9 +133,6 @@ section {
   margin: 0 auto;
 }
 
-/*Intro Style End*/
-
-/*Steps Style Start*/
 .steps {
   text-align: center;
   background: #fce138;
@@ -180,10 +174,6 @@ section {
 .primary-border {
   border-color: #fce138;
 }
-
-/*Steps Style End*/
-
-/*Trainers Style Start*/
 
 .secondary-border {
   border-color: #39a6b2;
@@ -235,47 +225,46 @@ section {
 .text-right {
   text-align: right;
 }
-/*Trainers Style End*/
 
-/*Reach Out Style Start*/
-
+/* REACH OUT STYLES START */
 .contact {
-  text-align:center;
-  background-color: #024e76;
+  text-align: center;
+  background: #024e76;
 }
 
 .contact h2 {
-  color:#fce138;
-  display: block;
-  border-width: auto;
- }
+  color: #fce138;
+}
 
-.contact-info iframe{ 
+.contact-info iframe {
   width: 400px;
   height: 400px;
 }
 
-.contact-info div{
+.contact-info div {
   width: 410px;
   display: inline-block;
   vertical-align: top;
-  text-align: bottom;
+  text-align: left;
   margin: 30px 0 0 60px;
   color: white;
 }
 
-.contact-info h3{
+.contact-info h3 {
   color: #fce138;
   font-size: 32px;
 }
 
-.contact-info p, .contact-info address{
+.contact-info p,
+.contact-info address {
   margin: 20px 0;
   line-height: 1.5;
   font-size: 20px;
   font-style: normal;
 }
 
-.contact-info a{
+.contact-info a {
   color: #fce138;
 }
+
+/* REACH OUT STYLES END */
